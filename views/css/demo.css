@@ -1,0 +1,70 @@
+/* line 1, ../sass/demo.scss */
+html, body {
+  padding: 0;
+  margin: 0;
+  background: #364050 url(/views/images/templatemo_bg_homepage.jpg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.largeInput{
+  width: 550px;
+}
+
+/* line 12, ../sass/demo.scss */
+a {
+  color: #4ab19a;
+}
+
+/* line 16, ../sass/demo.scss */
+.clear {
+  clear: both;
+  float: none;
+  width: 100%;
+}
+
+.flex-container {
+  text-align: center;
+}
+
+
+/* line 22, ../sass/demo.scss */
+.container {
+  width: 100%;
+  min-height: 690px;
+  padding-left: 5px;
+  text-align:center;
+  display:block;
+  margin:0 auto;
+
+}
+/* line 32, ../sass/demo.scss */
+.container .gallery a img {
+  float: none;
+  width: auto;
+  height: 23%;
+  border: 2px solid #fff;
+
+  -webkit-transition: -webkit-transform .15s ease;
+  -moz-transition: -moz-transform .15s ease;
+  -o-transition: -o-transform .15s ease;
+  -ms-transition: -ms-transform .15s ease;
+  transition: transform .15s ease;
+  position: relative;
+}
+/* line 46, ../sass/demo.scss */
+.container .gallery a:hover img {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  z-index: 5;
+}
+
+/* line 65, ../sass/demo.scss */
+.align-center {
+  text-align: center;
+}
